@@ -1,8 +1,10 @@
 def hello():
     print ("Hello")  #  Printing hello() function.
 
+
 def main():
     hello()  # Defining main() function with hello() function, for them to be the same value.
+
 
 if __name__ == "__main__":  # using the if statement to call 'main()' function by assigning to variable '_name_'.  
     main()   # 'main()' is called, therefore it will also call 'hello()' function.
