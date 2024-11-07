@@ -1,0 +1,19 @@
+#loop 1
+for numbers in range (0, 51, 1): # 0 is the starting point, 50 is the end point, 1 is the increment.
+  print(numbers)
+
+#loop2
+for numbers in range (51, 0, -1): # -51 is the starting point, 0 is the end point, 1 is the decrement. 
+  print(numbers)
+
+#loop3
+for numbers in range (30, 51, 1):  # 30 is the starting point, 50 is the end point, 1 is the increment.
+  print(numbers) 
+
+#loop 4
+for numbers in range (50, 8, -2):  # 50 is the starting point, 10 is the end point, 2 is the increment.
+  print(numbers)
+
+#loop 5
+for numbers in range (100, 205, 5):  # 100 is the starting point, 200 is the end point, 5 is the increment.
+  print(numbers)

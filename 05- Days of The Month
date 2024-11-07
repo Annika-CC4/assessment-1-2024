@@ -1,0 +1,21 @@
+days={1:31, 2:28, 3:31, 4:30, 5:31, 6:30, 7:31, 8:31, 9:30, 10:31, 11:30, 12:31} 
+Input = (int(input("Please input month number:\n")))  # Declaring variable Input to ask the user for the key in dictionary. 
+
+if Input==2:    # if-else condition for key '2' to check if its a leap year.
+    leap = (int(input("Is it a leap year? [1]yes or [2]no?\n"))) #Declaring leap variable to ask the user if its a leap year or not.
+
+    if leap==1: 
+        days[2]= 29   # If yes, modify value to 29.
+        print(f"Has {days[2]} number of days.")
+
+    else:    
+        print (f"Has {days[2]} number of days.")  # If no, proceed with the given value. 
+
+
+elif Input in days:   
+    print (f"Has {days[Input]} number of days.")  # {days[Input]} retrieves the value from the dictionary by using [Input] as key.
+
+
+else: 
+    print("Number out of range.") 
+

@@ -1,0 +1,15 @@
+password = int(input("Please enter password. Hint password is in number form:\n"))     # declare password
+count= 4                                 # Declare the number of counts, starting from the first attempt.
+while password != 12345 and count >= 1:  # While loop to keep on asking the user to input password & 'and' logic to check if password is not correct. 
+    print("Access denied, please try again:\n","You have", count,"try/ies.") 
+    password= int(input("Please enter password. Hint password is in number form:\n"))
+    count= count - 1                     # To decrement tries by 1.
+    if count==0:    
+            print("You have used your tries.")
+    elif count <= 0:                     # Stopping once user have alredy typed 5 times.
+        break 
+    
+    
+else:                                    # When the input is correct.
+    print ("Access granted!")
+

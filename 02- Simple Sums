@@ -1,0 +1,5 @@
+num1 = 8  # Declare a variable with integer value.
+num2 = 10
+answer = num1+num2   # Use the mathematical operation on the variable with integer value.
+
+print(answer)

@@ -1,0 +1,9 @@
+names=["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"] # Declare list. 
+#Ask user to input name. 
+Input= input("Enter name:\n").capitalize()          # '.capitalize()' function to ignore capitalization. Function by Geekforgeeks.org. 
+
+if Input in names:   # if-else statement to check if the given input is in the list.
+    print ("Name found.")
+
+else: 
+    print ("Name not found.")
