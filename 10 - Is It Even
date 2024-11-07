@@ -1,12 +1,15 @@
 def value(a):  #(a) is the assigned container of the number to be inputted
 
+
     if a%2 == 0:  #% Operator, to check if the number divided by 2 is equal to 0.
         return "even"
     
     else: 
         return "odd"
-    
+
+
 number= value(a= int(input("Please input number: ")))  #The variable 'number' catches the return function.
 print(number) #The returned function is now printed to make the code working. 
+
 
 value() #Calling the 'value()' function.
